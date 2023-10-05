@@ -24,15 +24,24 @@
 	};
 
 	
-	var fullHeight = function() {
+	// var fullHeight = function() {
 
-		if ( !isMobile.any() ) {
-			$('.js-fullheight').css('height', $(window).height());
-			$(window).resize(function(){
-				$('.js-fullheight').css('height', $(window).height());
-			});
-		}
+	// 	if ( !isMobile.any() ) {
+	// 		$('.js-fullheight').css('height', $(window).height());
+	// 		$(window).resize(function(){
+	// 			$('.js-fullheight').css('height', $(window).height());
+	// 		});
+	// 	}
+	// };
+
+	var fullHeight = function() {
+		// Remove the check for mobile devices
+		$('.js-fullheight').css('height', '100vh');
+		$(window).resize(function(){
+			$('.js-fullheight').css('height', '100vh');
+		});
 	};
+	
 
 	// Parallax
 	var parallax = function() {
