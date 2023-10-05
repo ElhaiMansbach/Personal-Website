@@ -28,27 +28,29 @@
     },
   };
 
-  // var fullHeight = function() {
+//   var fullHeight = function () {
+//     if (!isMobile.any()) {
+//       $(".js-fullheight").css("height", $(window).height());
+//       $(window).resize(function () {
+//         $(".js-fullheight").css("height", $(window).height());
+//       });
+//     }
+//   };
 
-  // 	if ( !isMobile.any() ) {
-  // 		$('.js-fullheight').css('height', $(window).height());
-  // 		$(window).resize(function(){
-  // 			$('.js-fullheight').css('height', $(window).height());
-  // 		});
-  // 	}
-  // };
-
-  var fullHeight = function() {
-
-  	if ( isMobile.any() ) {
-  		$('.js-fullheight').css('height', $(window).height());
-  		$(window).resize(function(){
-  			$('.js-fullheight').css('height', $(window).height());
-  		});
-  	}
+  var fullHeight = function () {
+    if (!isMobile.any()) {
+      $(".js-fullheight").css("height", $(window).height());
+      $(window).resize(function () {
+        $(".js-fullheight").css("height", $(window).height());
+      });
+    }
+    if (isMobile.any()) {
+      $(".js-fullheight").css("height", $(window).height());
+      $(window).resize(function () {
+        $(".js-fullheight").css("height", $(window).height());
+      });
+    }
   };
-
-
 
   // Parallax
   var parallax = function () {
