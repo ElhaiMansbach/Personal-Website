@@ -68,7 +68,6 @@ figure {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  height: 100vh;
   height: 600px;
   width: 100%;
 }
@@ -80,7 +79,7 @@ figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.5);
+  background: rgba(255, 144, 0, 0.6);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -207,12 +206,9 @@ figure {
 #fh5co-about,
 #fh5co-resume,
 #fh5co-skills,
-/* #fh5co-started, */
 #fh5co-work {
-  /* background-size: cover;
-  background-position: center center; 
-  background-attachment: fixed; */
   padding: 8em 0;
+  
 }
 
 /* Style the paragraphs */
@@ -231,7 +227,7 @@ figure {
 
 #fh5co-work::before {
   content: "";
-  background-color: rgba(255, 144, 0, 0.7); 
+  background-color: rgba(255, 144, 0, 0.6); 
   position: absolute;
   top: 0;
   left: 0;
@@ -249,7 +245,7 @@ figure {
 /* Style the orange color overlay */
 #fh5co-skills::before {
   content: "";
-  background-color: rgba(255, 144, 0, 0.5); /* Adjust the opacity as needed */
+  background-color: rgba(255, 144, 0, 0.6); 
   position: absolute;
   top: 0;
   left: 0;
@@ -273,7 +269,7 @@ figure {
 /* Style the orange color overlay */
 #fh5co-started::before {
   content: "";
-  background-color: rgba(255, 144, 0, 0.5); /* Adjust the opacity as needed */
+  background-color: rgba(255, 144, 0, 0.6); 
   position: absolute;
   top: 0;
   left: 0;
@@ -384,7 +380,6 @@ figure {
 
 .timeline-heading > h3 {
   font-family: "Alef";
-  /* font-family:  monospace; */
 }
 @media screen and (max-width: 768px) {
   .timeline .timeline-heading > div h3 {
@@ -505,8 +500,6 @@ figure {
   font-weight: normal;
   color: #bfbfbf;
   font-family: "Alef";
-  /* font-family: monospace; */
-  /* font-family: "Space Mono"; */
 }
 
 .timeline-body > p,
@@ -696,15 +689,6 @@ figure {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-
-
-
-
-
-
-
-
-
 
 #fh5co-started .fh5co-heading p {
   color: rgba(255, 255, 255, 0.8);
