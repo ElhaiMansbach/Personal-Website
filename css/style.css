@@ -208,21 +208,17 @@ figure {
 #fh5co-skills,
 /* #fh5co-started, */
 #fh5co-work {
-  fh5co-about;
-  padding: 6em 0;
-}
-
-/* Style the heading */
-.fh5co-heading h1 {
-  font-size: 36px;
-  color: #333;
-  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center center; 
+  background-attachment: fixed;
+  padding: 7em 0;
 }
 
 /* Style the paragraphs */
 .about-text {
   line-height: 1.6;
   color: #666;
+  margin-top: 25px;
 }
 
 #fh5co-work {
@@ -286,11 +282,8 @@ figure {
 }
 
 .col-md-8 > p {
-  margin-bottom: 40px;
-  /* margin-top: 15px; */
   font-family: "Alef", "Verdana";
   font-size: 19px;
-  text-align: center;
 }
 
 .custom-width {
@@ -301,6 +294,8 @@ figure {
 .col-md-8 > h1 {
   font-family:  "Space Mono", 'Alef', serif;
   font-size: 33px;
+  color: #333;
+  margin-bottom: 0px;
 }
 
 .col-md-8 > h2 {
