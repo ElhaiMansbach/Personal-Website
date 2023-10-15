@@ -1,58 +1,50 @@
-# Personal-Website
+<h1 align="center" >My Website :bust_in_silhouette: </h1>
 
+Welcome to my personal website!</br>
+This site serves as a platform to showcase my work, skills, and interests.</br>
+Feel free to explore and get to know me better.</br>
 
-TITLE: 
-Profile - 100% Fully Responsive Free HTML5 Bootstrap Template
+Visit the website: [Click Me](https://elhaimansbach.github.io/Personal-Website/)
 
-AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
+## Table of Contents
 
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
+- [About Me](#about-me)
+- [Features](#features)
+- [Technologies](#technologies)
 
+## About Me
 
-CREDITS:
+In this section, you'll find an introduction to who I am, my background, and what I'm passionate about. I'll share my goals, values, and what I aspire to achieve through this website.
 
-Bootstrap
-http://getbootstrap.com/
+## Features
 
-jQuery
-http://jquery.com/
+### 1. Mobile-Friendly Design
 
-jQuery Easing
-http://gsgd.co.uk/sandbox/jquery/easing/
+This website is responsive and optimized for various screen sizes, including mobile devices, tablets, and desktops. It ensures a consistent and enjoyable user experience across all platforms.
 
-Modernizr
-http://modernizr.com/
+### 2. Smooth Scrolling and Animations
 
-Google Fonts
-https://www.google.com/fonts/
+As you scroll down the page, you'll notice smooth scrolling behavior and subtle animations that enhance the visual appeal of the content. This provides an engaging and modern browsing experience.
 
-Google Map
-http://maps.google.com/
+### 3. "Go to Top" Button
 
-Icomoon
-https://icomoon.io/app/
+Conveniently navigate back to the top of the page with the "Go to Top" button. It appears after you've scrolled down a certain distance and smoothly scrolls to the top of the page when clicked.
 
-Respond JS
-https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
+### 4. Parallax Effect
 
-animate.css
-http://daneden.me/animate
+The parallax effect creates a visually pleasing depth perception by moving background images at a slower pace than foreground content. This adds a sense of immersion and depth to the website.
 
-jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
+### 5. Skill Showcase
 
-Stellar Parallax
-http://markdalgleish.com/projects/stellar.js/
+Check out the "Skills" section to see dynamic animated charts that visually represent my proficiency in various areas.
 
-jQuery countTo
-http://www.owlcarousel.owlgraphic.com/
+## Technologies
 
-EasyPieChart
-https://github.com/rendro/easy-pie-chart
+This website is built using the following technologies and libraries:
 
-Demo Images:
-http://unsplash.com
-
+- HTML5
+- CSS3
+- JavaScript
+- jQuery
+- [Stellar.js](https://markdalgleish.com/projects/stellar.js/) (for parallax)
+- [Waypoints](http://imakewebthings.com/waypoints/) (for scrolling animations)
