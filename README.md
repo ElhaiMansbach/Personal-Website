@@ -48,3 +48,4 @@ This website is built using the following technologies and libraries:
 - jQuery
 - [Stellar.js](https://markdalgleish.com/projects/stellar.js/) (for parallax)
 - [Waypoints](http://imakewebthings.com/waypoints/) (for scrolling animations)
+
